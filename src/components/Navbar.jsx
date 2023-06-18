@@ -21,7 +21,7 @@ function Navbar() {
           <Link to={"/contact"}>Contact</Link>
         </div>
       </div>
-      <h2>TECAS</h2>
+      <h2 className="h-title">TECAS</h2>
       <div className="rightSide">
         <Link to={"/"}>Home</Link>
         <Link to={"/about"}>About</Link>

@@ -1,13 +1,15 @@
 .background{
     width: 100%;
-    height: 70vh;
+    height: 74vh;
     background-size:cover ;
     background-position: center;
     background-repeat: no-repeat;
-    box-shadow: inset 2px 2px 5000px black, -2px -2px 500px black;
+    box-shadow: inset 20px 20px 500px black, -2px -2px 500px black;
 
     /* box-shadow: inset 1px 5x 1000px black; */
-    background-image: url("../assets/homeBanner1.jpg");
+    /* background-image: url("../assets/homeBanner1.jpg"); */
+    /* background-image: url("../assets/logo.jpg"); */
+    background-image: url("../assets/R.jpg");
 }
 .content{
     padding: 20px;
@@ -24,15 +26,18 @@
 }
 .content button{
     width: 200px;
-    height: 40px;
+    height: 50px;
     padding: 10px;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
     cursor: pointer;
     transition: .5s ease-in-out;
 }
 .content button:hover{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     transform: scale3d(1.5);
 }
